@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="./scripts/login.js"></script>
+  <link rel="stylesheet" href="./styles/login.css">
+  <title>Proximity Chat Login</title>
+</head>
+<body>
+  <div id="login-page" class="login-container">
+    <h2>Welcome to Proximity Chat</h2>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+      </div>
+      <button type="submit" id="login-btn" class="login-btn">Login</button>
+      <p class="signup-text">
+        Don't have an account? <a href="./signup.html" id="create-account-link">Create one here</a>
+      </p>
+    </form>
+    <div class="divider">
+      <span>or</span>
+    </div>
+    <button id="google-login-btn" class="social-btn google-btn">
+      <i class="google-icon fa fa-google"></i> Login with Google
+    </button>
+  </div>
+</body>
+</html>

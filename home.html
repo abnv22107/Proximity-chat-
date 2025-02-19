@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/home.css">
+  <script type="module" src="./scripts/chat.js"></script>
+  <title>Chat Interface</title>
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Chat Area -->
+    <div class="chat-area">
+      <div class="chat-header">
+        <h3 id="contact-name">Contact Name</h3>
+        <span class="status">Online</span>
+        <label class="toggle-label">
+          <input type="checkbox" id="translation-toggle">
+          <span>Translate</span>
+        </label>
+      </div>
+      <div class="messages" id="message-area">
+        <!-- Messages will be displayed here -->
+      </div>
+      <div class="message-input">
+        <input type="text" id="message-input" placeholder="Type a message">
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
